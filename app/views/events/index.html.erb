@@ -1,0 +1,16 @@
+<center>
+<h1><div class="p-3 mb-2 bg-info text-white">Welcome to EVENTBRITE - Let's check our EVENTs</div></h1>
+    <p><h2>Event List : </h2></p>
+        <hr/>
+            <hr/>
+        <% @event.each do |event|%>
+            <p>Event : <%= event.title %><p>
+        <%= link_to "Détails", event_path(event[:id]) %>
+            <hr/>
+        <% end %>
+<center>
+
+<br>
+<br>
+<br>
+<br>

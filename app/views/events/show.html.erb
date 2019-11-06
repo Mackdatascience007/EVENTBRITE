@@ -1,0 +1,14 @@
+<div class="container">
+    <div class="card text-center mb-5 mt-5">
+    <h5 class="card-header">Event Number <%= @event.id %></h5>
+    <div class="card-body">
+        <h2 class="card-title mb-5">Title: <%= @event.title %></h2>
+        <h3 class="card-text mb-5">Content: <%= @event.description %></h3>
+        <h3 class="card-text mb-5">Event Creator: <%= @admin %></h3>
+        <h3 class="card-text mb-5">Event Start Date: <%= @date %></h3>
+    </div>
+    </div>
+
+    <p><%= link_to "Retourner à la liste de Event", root_path, :class => "btn btn-primary" %></p>
+    
+</div>
