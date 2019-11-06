@@ -63,4 +63,4 @@ Les ressources de [The Hacking Project](https://www.thehackingproject.org/)\
 Les [guides de Rails](https://guides.rubyonrails.org/index.html)
 
 
-Source de ce README : GAEL DUBOIS , que je remercie.
+Basé sur un templates README de GAEL DUBOIS.
