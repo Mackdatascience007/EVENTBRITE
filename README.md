@@ -1,24 +1,66 @@
-# README
+# EVENTBRIT
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## The Hacking Project - Version Rails
 
-Things you may want to cover:
 
-* Ruby version
 
-* System dependencies
+Possibilité de naviquer à travers différentes pages, Home avec tous les event listés, possibilité de se loguer etc ...
 
-* Configuration
+## Les Events
 
-* Database creation
+ ![Screenshot](screenshot.jpg)
 
-* Database initialization
+***
 
-* How to run the test suite
+## Fonctionnalités présentes
 
-* Services (job queues, cache servers, search engines, etc.)
+* Contient les models et tables demandés (cf les fichiers de migration pour le détail des attributs)
+* Contient le seed permettant de remplir la BDD pour effectuer les tests
+* Controller avec liens
+* Views avec présentations
 
-* Deployment instructions
 
-* ...
+***
+
+## Installation
+Cloner le repository : 
+~~~bash
+$ git clone https://github.com/gaael/dog-strolling.git
+~~~
+Ou télécharger sa version compressée puis l'extraire.
+
+***
+
+
+
+## Configuration requise
+Version de **Rails** :
+~~~bash
+$ rails-v
+Rails 5.2.3
+~~~
+
+Version de **Ruby** :
+~~~bash
+$ ruby -v
+ruby 2.5.1
+~~~
+
+Version de **Bundler** :
+~~~bash
+$ bundle -v
+Bundler version 2.0.2
+~~~
+
+Gemmes utilisées (source : *Gemfile*) :\
+Gemmes ajoutées au **Gemfile** de Rails :
+~~~ruby
+
+***
+
+## Credits
+Les ressources de [The Hacking Project](https://www.thehackingproject.org/)\
+Les [guides de Rails](https://guides.rubyonrails.org/index.html)
+
+
+Source de ce README : GAEL DUBOIS , que je remercie.
